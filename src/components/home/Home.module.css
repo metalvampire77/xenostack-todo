@@ -1,0 +1,58 @@
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(125deg, #1d3557, #457b9d)
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2e9e9;
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+    
+}
+
+.quote{
+    font-size: 80px;
+}
+
+.buttons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.registerBtn{
+    background-color: rgb(6, 80, 43);
+    border-radius: 40px;
+    padding: 20px;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginBtn{
+    margin-right: 20px;
+    background-color: rgb(6, 80, 43);
+    border-radius: 40px;
+    padding: 20px;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .quote{
+        font-size: 35px;
+    }
+}
